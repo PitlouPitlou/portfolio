@@ -14,10 +14,10 @@ On peut mettre du texte en gras, italique, ou les deux à la fois.
 
 
 
-| Steps | Objectif | Jeux de données | Résultat attendu | Résultat attendu |
-|-----------|-----------|
-| Contenu 1 | Contenu 2 |
-| Contenu 3 | Contenu 4 |
+| Steps | Objectif | Jeux de données |
+|-----------|-----------|-----------|
+| Contenu 1 | Contenu 2 | Contenu 2 |
+| Contenu 3 | Contenu 4 | Contenu 2 |
 
 
 

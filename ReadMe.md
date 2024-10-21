@@ -14,7 +14,6 @@ Je reste disponible à tout moment pour en discuter avec vous.
 
 Pierre Le Guennec
 
-[email](leguennec.p@gmail.com)
 [LinkedIn](https://www.linkedin.com/in/pierreleguennec/)
 
 
