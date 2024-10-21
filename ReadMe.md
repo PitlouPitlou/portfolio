@@ -1,86 +1,87 @@
-#Portfolio
+# :frog: Portfolio
+
+***Texte de présentation à revoir***
+
+Bienvenue sur mon portfolio,
+
+🎯 Je viens de terminer ma formation à l'école informatique ENI, durant laquelle j'ai obtenu ma certification ISTQB.
+et développé des compétences en tests manuels et automatisés en utilisant des outils comme JIRA, Squash ou Katalon.
+
+📌 Ancien graphiste, mes expériences antérieures m'ont doté de la rigueur, de l'attention aux détails et de la capacité à travailler en équipe.
+Suite à ma formation qui s'est terminé en septembre, je suis à la recherche de ma première opportunité professionnelle dans ce domaine, prêt à appliquer mes compétences et à contribuer à des projets de qualité.
+
+Je reste disponible à tout moment pour en discuter avec vous.
+
+Pierre Le Guennec
+
+[email](leguennec.p@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/pierreleguennec/)
 
 
 
+## Les outils
+
+Au cours de ma formation, j'ai vu beaucoup d'outils pour soutenir les tests.
+En parrallèle de ma recherche d'emploi, je souhaite pousser mon apprentissage sur ces outils.
+
+Liste des outils sur lesquels j'ai commencé/je souhaite me former :
+- [x] Jira / Xray
+- [x] Git / GitHub
+- [ ] Python
+- [x] Robot Framework
+- [ ] Squash
+- [ ] Selenium
+- [ ] Cypress
+- [ ] Playwright
+- [ ] Katalon
 
 
+## Exercices
 
+Test de lien interne
 
-# Guide des éléments Markdown
-
-Markdown est un langage de balisage léger qui permet de formater du texte de manière simple. Voici une liste des éléments de formatage possibles en Markdown :
-
-## Titres
-Pour créer des titres de différentes tailles, on utilise le caractère `#`.
-
-```markdown
-# Titre de niveau 1
-## Titre de niveau 2
-### Titre de niveau 3
-#### Titre de niveau 4
-##### Titre de niveau 5
-###### Titre de niveau 6
-
-
-
-
-
-On peut mettre du texte en gras, italique, ou les deux à la fois.
-
-**Texte en gras**
-*Texte en italique*
-***Texte en gras et italique***
-
-
-
-Listes
-Il existe deux types de listes : à puces et numérotées.
-
-Liste à puces
-
-- Élément 1
-- Élément 2
-  - Sous-élément
-
-
-Liste numérotée
-
-1. Premier élément
-2. Deuxième élément
-   1. Sous-élément
-
-
-
-Liens
-
-Pour insérer un lien, voici la syntaxe :
-
-[Texte du lien](https://exemple.com)
-
-
-
-
-Images
-Pour ajouter une image, il suffit de suivre cette syntaxe :
-
-markdown
-Copier le code
-![Texte alternatif](https://lien-de-l-image.com/image.jpg)
-
-
-
-
-Citations
-Les citations sont créées avec un > avant le texte :
-
-markdown
-Copier le code
-> Ceci est une citation.
-
-
-Liens internes
-Vous pouvez également créer des liens internes dans un fichier markdown :
-
-markdown
-Copier le code
 [Aller au titre de niveau 2](#titre-de-niveau-2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## titre-de-niveau-2
