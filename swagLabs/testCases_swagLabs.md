@@ -190,6 +190,8 @@ Priorité :** haute
 **Priorité :** haute  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard, j'ai ajouté deux produits dans mon panier et je suis sur la page des produits  
 
+| Step | Action | Données | Résultat attendu |
+|-----------|-----------|-----------|-----------|
 | 1 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" et j'ai deux produits dans mon panier |
 | 2 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
 | 3 | Remplir le champ "First Name" avec une valeur correcte | Pierre |  |
@@ -206,6 +208,8 @@ Priorité :** haute
 **Priorité :** haute  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard, j'ai ajouté deux produits dans mon panier et je suis sur la page des produits
 
+| Step | Action | Données | Résultat attendu |
+|-----------|-----------|-----------|-----------|
 | 1 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" et j'ai deux produits dans mon panier |
 | 2 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
 | 3 | Laisser le champ "First Name" vide |  |  |
@@ -221,6 +225,8 @@ Priorité :** haute
 **Priorité :** haute  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard, j'ai ajouté deux produits dans mon panier et je suis sur la page des produits  
 
+| Step | Action | Données | Résultat attendu |
+|-----------|-----------|-----------|-----------|
 | 1 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" et j'ai deux produits dans mon panier |
 | 2 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
 | 3 | Remplir le champ "First Name" avec une valeur correcte | Pierre |  |
@@ -236,6 +242,8 @@ Priorité :** haute
 **Priorité :** haute  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard, j'ai ajouté deux produits dans mon panier et je suis sur la page des produits  
 
+| Step | Action | Données | Résultat attendu |
+|-----------|-----------|-----------|-----------|
 | 1 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" et j'ai deux produits dans mon panier |
 | 2 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
 | 3 | Remplir le champ "First Name" avec une valeur correcte | Pierre |  |
