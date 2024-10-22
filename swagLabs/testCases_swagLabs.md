@@ -3,21 +3,21 @@
 Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag Labs](https://www.saucedemo.com/v1/)  
 
 Sommaire :  
-[Cas de test : Connexion](#cas-de-test--connexion)  
-[Cas de test : Liste des produits](#cas-de-test--achat-de-produits)  
-[Cas de test : Panier](#cas-de-test--panier)  
-Menu à gauche  
-Page Checkout  
-End-to-End  
+- [Cas de test : Connexion](#cas-de-test--connexion)  
+- [Cas de test : Liste des produits](#cas-de-test--liste-des-produits)  
+- [Cas de test : Panier](#cas-de-test--panier)  
+- Menu à gauche  
+- Page Checkout  
+- End-to-End  
 
 ---
 
 ## Cas de test : Connexion
 
 ### Cas de test n°1 : Connexion en tant qu'utilisateur standard
-Description : Je me connecte en tant qu'utilisateur standard  
-Version : 1.0  
-Priorité : haute  
+**Description :** Je me connecte en tant qu'utilisateur standard  
+**Version :** 1.0  
+**Priorité :** haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
