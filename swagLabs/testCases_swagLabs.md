@@ -3,21 +3,14 @@
 Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag Labs](https://www.saucedemo.com/v1/)  
 
 Sommaire :  
-[Cas de test : Connexion](#cas-de-test--connexion)
-[Cas de test : Achat de produits](#cas-de-test--achat-de-produits)
-Liste produits : tester la page produits -> add, remove, filtre
-Page description produits
-Page panier
-Menu à gauche
-Page Checkout
-End-to-End
-
----
-
-1 2 - username, password erroné
-3 - username ET passwoird erroné
-4 - username, password non remplis
-5 6 - NI username, ni password remplis
+[Cas de test : Connexion](#cas-de-test--connexion)  
+[Cas de test : Achat de produits](#cas-de-test--achat-de-produits)  
+Liste produits : tester la page produits -> add, remove, filtre  
+Page description produits  
+Page panier  
+Menu à gauche  
+Page Checkout  
+End-to-End  
 
 ---
 
@@ -25,8 +18,8 @@ End-to-End
 
 ### Cas de test n°1 : Connexion en tant qu'utilisateur standard
 Description : Je me connecte en tant qu'utilisateur standard  
-Version : v 1.0    |    Priorité : haute  
-
+Version : v 1.0  
+Priorité : haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
@@ -36,12 +29,11 @@ Précondition : Ne pas être connecté en tant qu'utilisateur
 | 3 | Cliquer sur le bouton "LOGIN" |  | Je suis connecté et j'accède à la page des produits |
 
 <br>
-<br>
 
 ### Cas de test n°2 : Tentative de connexion avec un "username" incorrecte
 Description : J'essaye de me connecter en tant qu'utilisateur standard avec un username incorecte  
-Version : v 1.0    |    Priorité : haute  
-
+Version : v 1.0  
+Priorité : haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
@@ -51,12 +43,11 @@ Précondition : Ne pas être connecté en tant qu'utilisateur
 | 3 | Cliquer sur le bouton "LOGIN" |  | Le message d'erreur suivant apparaît : "Epic sadface: Username and password do not match any user in this service" |
 
 <br>
-<br>
 
 ### Cas de test n°3 : Tentative de connexion avec un "password" incorrecte
 Description : J'essaye de me connecter en tant qu'utilisateur standard avec un password incorecte  
-Version : v 1.0    |    Priorité : haute  
-
+Version : v 1.0  
+Priorité : haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
@@ -66,12 +57,11 @@ Précondition : Ne pas être connecté en tant qu'utilisateur
 | 3 | Cliquer sur le bouton "LOGIN" |  | Le message d'erreur suivant apparaît : "Epic sadface: Username and password do not match any user in this service" |
 
 <br>
-<br>
 
 ### Cas de test n°4 : Tentative de connexion avec un "username" et un "password" incorrecte
 Description : J'essaye de me connecter en tant qu'utilisateur standard avec un username et un password incorecte  
-Version : v 1.0    |    Priorité : haute  
-
+Version : v 1.0  
+Priorité : haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
@@ -81,12 +71,11 @@ Précondition : Ne pas être connecté en tant qu'utilisateur
 | 3 | Cliquer sur le bouton "LOGIN" |  | Le message d'erreur suivant apparaît : "Epic sadface: Username and password do not match any user in this service" |
 
 <br>
-<br>
 
 ### Cas de test n°5 : Tentative de connexion avec un "username" vide
 Description : J'essaye de me connecter en tant qu'utilisateur standard avec un username vide  
-Version : v 1.0    |    Priorité : haute  
-
+Version : v 1.0  
+Priorité : haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
@@ -96,12 +85,11 @@ Précondition : Ne pas être connecté en tant qu'utilisateur
 | 3 | Cliquer sur le bouton "LOGIN" |  | Le message d'erreur suivant apparaît : "Epic sadface: Username is required" |
 
 <br>
-<br>
 
 ### Cas de test n°6 : Tentative de connexion avec un "password" vide
 Description : J'essaye de me connecter en tant qu'utilisateur standard avec un password vide   
-Version : v 1.0    |    Priorité : haute  
-
+Version : v 1.0  
+Priorité : haute  
 Précondition : Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
