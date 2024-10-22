@@ -35,52 +35,9 @@ Liste des outils sur lesquels j'ai commencé/je souhaite me former :
 - [ ] Katalon
 
 
+
+
 ## Exercices
 
-Test de lien interne
-
-[Aller au titre de niveau 2](#titre-de-niveau-2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## titre-de-niveau-2
+- [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs): exercice d'automatisation d'un site marchand avec Robot Framework.
+- exo 2
