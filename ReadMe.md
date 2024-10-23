@@ -16,7 +16,9 @@ Pierre Le Guennec
 
 [LinkedIn](https://www.linkedin.com/in/pierreleguennec/)
 
+<br>
 
+---
 
 ## Les outils
 
@@ -34,10 +36,11 @@ Liste des outils sur lesquels j'ai commencé/je souhaite me former :
 - [ ] Playwright
 - [ ] Katalon
 
+<br>
 
-
+---
 
 ## Exercices
 
-- [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs): exercice d'automatisation d'un site marchand avec Robot Framework.
+- [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs) : exercice d'automatisation d'un site marchand avec Robot Framework.
 - exo 2

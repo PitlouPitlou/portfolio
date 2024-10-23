@@ -2,7 +2,6 @@
 
 Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag Labs](https://www.saucedemo.com/v1/)  
 
-Sommaire :
 - [Cas de test : Connexion](#whale2-cas-de-test--connexion)  
 - [Cas de test : Page produits](#whale2-cas-de-test--page-produits)  
 - [Cas de test : Panier](#whale2-cas-de-test--panier)  
@@ -10,7 +9,11 @@ Sommaire :
 - [Cas de test : Checkout](#whale2-cas-de-test--checkout)  
 - [Cas de test : End-to-End](#whale2-cas-de-test--End-to-end)  
 
+<br>
+
 ---
+
+<br>
 
 ## :whale2: Cas de test : Connexion
 
@@ -100,6 +103,8 @@ Sommaire :
 
 ---
 
+<br>
+
 ## :whale2: Cas de test : Page produits
 
 ### Cas de test n°7 : Naviguer et ajouter un produit au panier
@@ -138,6 +143,8 @@ Sommaire :
 
 ---
 
+<br>
+
 ## :whale2: Cas de test : Panier
 
 ### Cas de test n°9 : Ajouter des produits au panier et en retirer
@@ -164,6 +171,8 @@ Sommaire :
 
 ---
 
+<br>
+
 ## :whale2: Cas de test : Menu burger
 
 ### Cas de test n°10 : Naviguer sur le site avec le menu burger
@@ -187,6 +196,8 @@ Sommaire :
 <br>
 
 ---
+
+<br>
 
 ## :whale2: Cas de test : Checkout
 
@@ -261,6 +272,8 @@ Sommaire :
 
 ---
 
+<br>
+
 ## :whale2: Cas de test : End-to-end
 
 ### Cas de test n°15 : Parcours utilisateur end-to-end
@@ -285,6 +298,3 @@ Sommaire :
 | 12 | Cliquer sur le bouton "Finish" |  | J'accède à la page "Finish" |
 
 <br>
-
-
-| X | X | X | X |
