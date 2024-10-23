@@ -6,7 +6,7 @@ Sommaire :
 - [Cas de test : Connexion](#whale2-cas-de-test--connexion)  
 - [Cas de test : Liste des produits](#whale2-cas-de-test--liste-des-produits)  
 - [Cas de test : Panier](#whale2-cas-de-test--panier)  
-- [Cas de test : Menu Hamburger](#whale2-cas-de-test--menu-hamburger)  
+- [Cas de test : Menu burger](#whale2-cas-de-test--menu-burger)  
 - [Cas de test : Checkout](#whale2-cas-de-test--checkout)  
 - [Cas de test : End-to-End](#whale2-cas-de-test--End-to-end)  
 
@@ -28,10 +28,10 @@ Sommaire :
 
 <br>
 
-### Cas de test n°2 : Tentative de connexion avec un "username" incorrecte
-**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username incorecte  
+### Cas de test n°2 : Tentative de connexion avec un "username" incorrect
+**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username incorecte 
 **Version :** 1.0  
-Priorité :** haute  
+**Priorité :** haute  
 **Précondition :** Ne pas être connecté en tant qu'utilisateur  
 
 | Step | Action | Données | Résultat attendu |
@@ -42,8 +42,8 @@ Priorité :** haute
 
 <br>
 
-### Cas de test n°3 : Tentative de connexion avec un "password" incorrecte
-**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un password incorecte  
+### Cas de test n°3 : Tentative de connexion avec un "password" incorrect
+**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un password incorrect  
 **Version :** v 1.0  
 **Priorité :** haute  
 **Précondition :** Ne pas être connecté en tant qu'utilisateur  
@@ -56,8 +56,8 @@ Priorité :** haute
 
 <br>
 
-### Cas de test n°4 : Tentative de connexion avec un "username" et un "password" incorrecte
-**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username et un password incorecte  
+### Cas de test n°4 : Tentative de connexion avec un "username" et un "password" incorrect
+**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username et un password incorrect   
 **Version :** 1.0  
 **Priorité :** haute  
 **Précondition :** Ne pas être connecté en tant qu'utilisateur  
@@ -158,24 +158,24 @@ Priorité :** haute
 
 ---
 
-## :whale2: Cas de test : Menu hamburger
+## :whale2: Cas de test : Menu burger
 
-### Cas de test n°10 : Naviguer sur le site avec le menu hamburger
-**Description :** Je souhaite pouvoir naviguer sur le site avec le menu hamburger  
+### Cas de test n°10 : Naviguer sur le site avec le menu burger
+**Description :** Je souhaite pouvoir naviguer sur le site avec le menu burger  
 **Version :** 1.0  
 **Priorité :** basse  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard et je suis sur la page des produits  
 
 | Step | Action | Données | Résultat attendu |
 |-----------|-----------|-----------|-----------|
-| 1 | Cliquer sur le menu hamburger |  | Le menu apparaît à la gauche de l'écran |
+| 1 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
 | 2 | Cliquer sur "All Items" |  | J'accède à la page des produits |
-| 3 | Cliquer sur le menu hamburger |  | Le menu apparaît à la gauche de l'écran |
+| 3 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
 | 4 | Cliquer sur "Logout" |  | J'accède à la page de connexion |
 | 5 | Remplir le champ "Username" avec une valeur correcte | standard_user |  |
 | 6 | Remplir le champ "Password" avec une valeur correcte | secret_sauce |  |
 | 7 | Cliquer sur le bouton "LOGIN" |  | Je suis connecté et j'accède à la page des produits |
-| 8 | Cliquer sur le menu hamburger |  | Le menu apparaît à la gauche de l'écran |
+| 8 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
 | 9 | Cliquer sur "About" |  | Je suis envoyer sur le site "https://saucelabs.com/" |
 
 <br>
