@@ -29,7 +29,7 @@ Sommaire :
 <br>
 
 ### Cas de test n°2 : Tentative de connexion avec un "username" incorrect
-**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username incorecte 
+**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username incorrect 
 **Version :** 1.0  
 **Priorité :** haute  
 **Précondition :** Ne pas être connecté en tant qu'utilisateur  
