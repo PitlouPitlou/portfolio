@@ -4,7 +4,7 @@ Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag L
 
 Sommaire :
 - [Cas de test : Connexion](#whale2-cas-de-test--connexion)  
-- [Cas de test : Liste des produits](#whale2-cas-de-test--liste-des-produits)  
+- [Cas de test : Page produits](#whale2-cas-de-test--page-produits)  
 - [Cas de test : Panier](#whale2-cas-de-test--panier)  
 - [Cas de test : Menu burger](#whale2-cas-de-test--menu-burger)  
 - [Cas de test : Checkout](#whale2-cas-de-test--checkout)  
@@ -56,8 +56,8 @@ Sommaire :
 
 <br>
 
-### Cas de test n°4 : Tentative de connexion avec un "username" et un "password" incorrect
-**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username et un password incorrect   
+### Cas de test n°4 : Tentative de connexion avec un "username" et un "password" incorrects
+**Description :** J'essaye de me connecter en tant qu'utilisateur standard avec un username et un password incorrects  
 **Version :** 1.0  
 **Priorité :** haute  
 **Précondition :** Ne pas être connecté en tant qu'utilisateur  
@@ -100,19 +100,20 @@ Sommaire :
 
 ---
 
-## :whale2: Cas de test : Liste des produits
+## :whale2: Cas de test : Page produits
 
-### Cas de test n°7 : Naviguer et ajouter des produits au panier
-**Description :** Je souhaite pouvoir naviguer et ajouter un produit au panier depuis la page "Produits" et depuis sa description  
+### Cas de test n°7 : Naviguer et ajouter un produit au panier
+**Description :** Je souhaite pouvoir naviguer sur la page "Produits", sur la fiche d'un produit et l'ajouter au panier  
 **Version :** 1.0  
-**Priorité :** haute    
-**Précondition :** Je suis connecté en tant qu'utilisateur standard et je suis sur la page des produits  
+**Priorité :** haute  
+**Précondition :** Je suis connecté en tant qu'utilisateur standard, je suis sur la page des produits et mon panier est vide  
 
 | Step | Action | Données | Résultat attendu |
 |-----------|-----------|-----------|-----------|
-| 1 | Cliquer sur le bouton "Add to cart" d'un produit |   | Le bouton "Add to cart" d'un produit devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
-| 2 | Cliquer sur la fiche d'un autre produit |  | J'accède à la page du produit cliqué |
-| 3 | Cliquer sur le bouton "Add to cart" | X | Le bouton "Add to cart" des produits devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
+| 1 | Cliquer sur la fiche d'un produit |  | J'accède à la page du produit cliqué |
+| 2 | Cliquer sur le bouton "Back" |  | J'accède à la page des produits |
+| 3 | Cliquer sur la fiche d'un autre produit |  | J'accède à la page du produit cliqué |
+| 4 | Cliquer sur le bouton "Add to cart" |  | Le bouton "Add to cart" d'un produit devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
 
 <br>
 
@@ -124,10 +125,14 @@ Sommaire :
 
 | Step | Action | Données | Résultat attendu |
 |-----------|-----------|-----------|-----------|
-| 1 | Cliquer sur le bouton "Filtre" et sélectionner "Name (A to Z)" |  | Les produits sont triés par ordre alphabétique croissante |
-| 2 | Cliquer sur le bouton "Filtre" et sélectionner "Name (Z to A)" |  | Les produits sont triés par ordre alphabétique décroissante |
-| 3 | Cliquer sur le bouton "Filtre" et sélectionner "Price (low to high) " |  | Les produits sont triés selon l'ordre de prix croissant |
-| 4 | Cliquer sur le bouton "Filtre" et sélectionner "Price (high to low) " |  | Les produits sont triés selon l'ordre de prix décroissant |
+| 1 | Cliquer sur le bouton "Filtre" |  | Le menu déroulant avec les différents filtre apparaît |
+| 2 | Sélectionner dans le menu déroulant "Name (A to Z)" |  | Les produits sont triés par ordre alphabétique croissante |
+| 3 | Cliquer sur le bouton "Filtre" |  | Le menu déroulant avec les différents filtre apparaît |
+| 4 | Sélectionner dans le menu déroulant  "Name (Z to A)" |  | Les produits sont triés par ordre alphabétique décroissante |
+| 5 | Cliquer sur le bouton "Filtre" |  | Le menu déroulant avec les différents filtre apparaît |
+| 6 | Sélectionner dans le menu déroulant "Price (low to high) " |  | Les produits sont triés selon l'ordre de prix croissant |
+| 7 | Cliquer sur le bouton "Filtre" |  | Le menu déroulant avec les différents filtre apparaît |
+| 8 | Sélectionner dans le menu déroulant "Price (high to low) " |  | Les produits sont triés selon l'ordre de prix décroissant |
 
 <br>
 
@@ -139,20 +144,21 @@ Sommaire :
 **Description :** Je souhaite pouvoir ajouter et retirer des produits de mon panier  
 **Version :** 1.0  
 **Priorité :** haute  
-**Précondition :** Je suis connecté en tant qu'utilisateur standard et je suis sur la page des produits  
+**Précondition :** Je suis connecté en tant qu'utilisateur standard, je suis sur la page des produits et mon panier est vide  
 
 | Step | Action | Données | Résultat attendu |
 |-----------|-----------|-----------|-----------|
-| 1 | Cliquer sur le bouton "Add to cart" de deux produits |  | Le bouton "Add to cart" des produits devient "Remove" et une pastille rouge avec le chiffre "2" apparaît sur le picto "Panier" |
+| 1 | Cliquer sur le bouton "Add to cart" d'un produit |  | Le bouton "Add to cart" des produits devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
+| 2 | Cliquer sur le bouton "Add to cart" d'un autre produit |  | Le bouton "Add to cart" des produits devient "Remove" et la pastille rouge près du picto "Panier" devient "2" |
 | 3 | Cliquer sur la fiche d'un autre produit |  | J'accède à la page du produit cliqué |
-| 6 | Je clique sur le bouton "Add to cart" |  | Le bouton "Add to cart" du produit devient "Remove" et la pastille rouge près du picto "Panier" devient "3"  |
-| 3 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" |
-| 4 | Cliquer sur le bouton "Remove" d'un produit |  | Le produit est retiré et la pastille rouge près du picto "Panier" devient "2" |
-| 5 | Cliquer sur le bouton "Continue shopping" |  | J'accède à la page des produits |
-| 6 | Cliquer sur le bouton "Remove" de l'un des deux produits |  | Le bouton "Remove" du produit devient "Add to cart" et la pastille rouge près du picto "Panier" devient "1" |
-| 7 | Cliquer sur la fiche du dernier produit ayant le bouton "Remove" |  | J'accède à la page du produit cliqué |
-| 8 | Je clique sur le bouton "Remove" |  | Le bouton "Remove" du produit devient "Add to cart" et la pastille rouge près du picto "Panier" disparaît |
-| 9 | Je clique sur le bouton "Panier" |  | J'accède à la page "Your Cart" et constate qu'il n'y a plus de produit |
+| 4 | Cliquer sur le bouton "Add to cart" |  | Le bouton "Add to cart" du produit devient "Remove" et la pastille rouge près du picto "Panier" devient "3"  |
+| 5 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" |
+| 6 | Cliquer sur le bouton "Remove" d'un produit |  | Le produit est retiré et la pastille rouge près du picto "Panier" devient "2" |
+| 7 | Cliquer sur le bouton "Continue shopping" |  | J'accède à la page des produits |
+| 8 | Cliquer sur le bouton "Remove" de l'un des deux produits |  | Le bouton "Remove" du produit devient "Add to cart" et la pastille rouge près du picto "Panier" devient "1" |
+| 9 | Cliquer sur la fiche du dernier produit ayant le bouton "Remove" |  | J'accède à la page du produit cliqué |
+| 10 | Cliquer sur le bouton "Remove" |  | Le bouton "Remove" du produit devient "Add to cart" et la pastille rouge près du picto "Panier" disparaît |
+| 11 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" et constate qu'il n'y a plus de produit |
 
 <br>
 
@@ -163,7 +169,7 @@ Sommaire :
 ### Cas de test n°10 : Naviguer sur le site avec le menu burger
 **Description :** Je souhaite pouvoir naviguer sur le site avec le menu burger  
 **Version :** 1.0  
-**Priorité :** basse  
+**Priorité :** haute  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard et je suis sur la page des produits  
 
 | Step | Action | Données | Résultat attendu |
@@ -202,7 +208,7 @@ Sommaire :
 
 <br>
 
-### Cas de test n°12 : Tentative de commande avec un "firstname" vide 
+### Cas de test n°12 : Tentative de validation de commande avec formulaire incomplet 
 **Description :** J'essaye de passer une commande avec un "firstname" vide  
 **Version :** 1.0  
 **Priorité :** haute  
@@ -219,7 +225,7 @@ Sommaire :
 
 <br>
 
-### Cas de test n°13 : Tentative de commande avec un "lastname" vide 
+### Cas de test n°13 : Tentative de validation de commande avec formulaire incomplet  
 **Description :** J'essaye de passer une commande avec un "lastname" vide  
 **Version :** 1.0  
 **Priorité :** haute  
@@ -236,8 +242,8 @@ Sommaire :
 
 <br>
 
-### Cas de test n°14 : Tentative de commande avec un "Zip/Postal Code" vide  
-**Description :** J'essaye de passer une commande avec un "lastname" vide  
+### Cas de test n°14 : Tentative de validation de commande avec formulaire incomplet  
+**Description :** J'essaye de passer une commande avec un "Zip/Postal Code" vide  
 **Version :** 1.0  
 **Priorité :** haute  
 **Précondition :** Je suis connecté en tant qu'utilisateur standard, j'ai ajouté deux produits dans mon panier et je suis sur la page des produits  
@@ -257,7 +263,7 @@ Sommaire :
 
 ## :whale2: Cas de test : End-to-end
 
-### Cas de test n°10 : Parcours utilisateur end-to-end
+### Cas de test n°15 : Parcours utilisateur end-to-end
 **Description :** Je souhaite réaliser un parcours utilisateur complet end-to-end  
 **Version :** 1.0  
 **Priorité :** haute  
@@ -269,19 +275,14 @@ Sommaire :
 | 2 | Remplir le champ "Password" avec une valeur correcte | secret_sauce |  |
 | 3 | Cliquer sur le bouton "LOGIN" |  | Je suis connecté et j'accède à la page des produits |
 | 4 | Cliquer sur la fiche d'un produit |  | J'accède à la page du produit |
-| 5 | Cliquer sur le bouton "<- Back" |  | J'accède à la page des produits |
-| 6 | Cliquer sur la fiche d'un autre produit |  | J'accède à la page du produit |
-| 7 | Cliquer sur "Add to cart" |  | Le bouton "Add to cart" des produits devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
-| 8 | Cliquer sur le bouton "<- Back" |  | J'accède à la page des produits |
-| 9 | Je clique sur le bouton "Add to cart" d'un produit |  | Le bouton "Add to cart" du produit devient "Remove" et la pastille rouge près du picto "Panier" devient "2" |
-| 10 | Je clique sur le bouton "Panier" |  | J'accède à la page "Your Cart" |
-| 11 | Je clique sur le bouton "Remove d'un produit |  | Le produit est supprimé |
-| 12 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
-| 13 | Remplir le champ "First Name" avec une valeur correcte | Pierre |  |
-| 14 | Remplir le champ "Last Name" avec une valeur correcte | Le Guennec |  |
-| 15 | Remplir le champ "Zip/Postal Code" avec une valeur correcte | 44000 |  |
-| 16 | Cliquer sur le bouton "Continue" |  | J'accède à la page "Checkout: Overview" |
-| 17 | Cliquer sur le bouton "Finish" |  | J'accède à la page "Finish" |
+| 5 | Cliquer sur "Add to cart" |  | Le bouton "Add to cart" du produit devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
+| 6 | Je clique sur le bouton "Panier" |  | J'accède à la page "Your Cart" |
+| 7 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
+| 8 | Remplir le champ "First Name" avec une valeur correcte | Pierre |  |
+| 9 | Remplir le champ "Last Name" avec une valeur correcte | Le Guennec |  |
+| 10 | Remplir le champ "Zip/Postal Code" avec une valeur correcte | 44000 |  |
+| 11 | Cliquer sur le bouton "Continue" |  | J'accède à la page "Checkout: Overview" |
+| 12 | Cliquer sur le bouton "Finish" |  | J'accède à la page "Finish" |
 
 <br>
 
