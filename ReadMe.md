@@ -1,4 +1,4 @@
-# :octocat: Portfolio
+# :cat: Portfolio
 
 Bienvenue sur mon portfolio !
 
