@@ -44,4 +44,3 @@ Vous trouverez ci-dessous la liste des langages, outils ou logiciels sur lesquel
 ## Exercices
 
 - [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs) : exercice d'automatisation d'un site marchand avec Robot Framework.
-- exo 2
