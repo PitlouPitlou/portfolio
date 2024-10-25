@@ -8,8 +8,6 @@ ${browser}        chrome
 ${url}            https://saucedemo.com/
 ${username}       standard_user
 ${password}       secret_sauce 
-${username_false}    toto
-${password_false}    toto
 
 
 *** Keywords ***
@@ -30,8 +28,7 @@ Cas de test n°7 : Naviguer et ajouter un produit au panier
     Click Element    //*[@id="item_4_title_link"]/div
     Click Element    //*[@id="back-to-products"]
     Click Element    //*[@id="item_0_title_link"]/div
-    Click Button    //*[@id="add-to-cart"]
-    Sleep    4
+    Click Button     //*[@id="add-to-cart"]
 
 
 Cas de test n°8 : Trier les produits
