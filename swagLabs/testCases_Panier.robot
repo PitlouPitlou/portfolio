@@ -33,7 +33,7 @@ Cas de test n°9 : Ajouter des produits au panier et en retirer
 
     #Naviguer vers le panier
     Click Element    //a[@class='shopping_cart_link']
-    
+
     #Remove un produit
     Click Button    xpath://div[text()='Sauce Labs Backpack']/ancestor::div[@class='cart_item']//button[text()='Remove']
     Click Button    //button[text()='Continue Shopping']
@@ -43,4 +43,3 @@ Cas de test n°9 : Ajouter des produits au panier et en retirer
 
     #Naviguer vers le panier
     Click Element    //a[@class='shopping_cart_link']
-    Sleep    1
