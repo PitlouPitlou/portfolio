@@ -185,13 +185,14 @@ Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag L
 |-----------|-----------|-----------|-----------|
 | 1 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
 | 2 | Cliquer sur "All Items" |  | J'accède à la page des produits |
-| 3 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
-| 4 | Cliquer sur "Logout" |  | J'accède à la page de connexion |
-| 5 | Remplir le champ "Username" avec une valeur correcte | standard_user |  |
-| 6 | Remplir le champ "Password" avec une valeur correcte | secret_sauce |  |
-| 7 | Cliquer sur le bouton "LOGIN" |  | Je suis connecté et j'accède à la page des produits |
-| 8 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
-| 9 | Cliquer sur "About" |  | Je suis envoyer sur le site "https://saucelabs.com/" |
+| 3 | Cliquer sur la croix "X" |  | Le menu burger se ferme |
+| 4 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
+| 5 | Cliquer sur "Logout" |  | J'accède à la page de connexion |
+| 6 | Remplir le champ "Username" avec une valeur correcte | standard_user |  |
+| 7 | Remplir le champ "Password" avec une valeur correcte | secret_sauce |  |
+| 8 | Cliquer sur le bouton "LOGIN" |  | Je suis connecté et j'accède à la page des produits |
+| 9 | Cliquer sur le menu burger |  | Le menu apparaît à la gauche de l'écran |
+| 10 | Cliquer sur "About" |  | Je suis envoyer sur le site "https://saucelabs.com/" |
 
 <br>
 
@@ -215,7 +216,7 @@ Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag L
 | 4 | Remplir le champ "Last Name" avec une valeur correcte | Le Guennec |  |
 | 5 | Remplir le champ "Zip/Postal Code" avec une valeur correcte | 44000 |  |
 | 6 | Cliquer sur le bouton "Continue" |  | J'accède à la page "Checkout: Overview" |
-| 7 | Cliquer sur le bouton "Finish" |  | J'accède à la page "Finish" |
+| 7 | Cliquer sur le bouton "Finish" |  | J'accède à la page "Checkout: Complete!" |
 
 <br>
 
@@ -289,7 +290,7 @@ Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag L
 | 3 | Cliquer sur le bouton "LOGIN" |  | Je suis connecté et j'accède à la page des produits |
 | 4 | Cliquer sur la fiche d'un produit |  | J'accède à la page du produit |
 | 5 | Cliquer sur "Add to cart" |  | Le bouton "Add to cart" du produit devient "Remove" et une pastille rouge avec le chiffre "1" apparaît sur le picto "Panier" |
-| 6 | Je clique sur le bouton "Panier" |  | J'accède à la page "Your Cart" |
+| 6 | Cliquer sur le bouton "Panier" |  | J'accède à la page "Your Cart" |
 | 7 | Cliquer sur le bouton "Checkout" |  | J'accède à la page "Checkout: Your Information |
 | 8 | Remplir le champ "First Name" avec une valeur correcte | Pierre |  |
 | 9 | Remplir le champ "Last Name" avec une valeur correcte | Le Guennec |  |
