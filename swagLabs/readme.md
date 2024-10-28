@@ -1,4 +1,4 @@
-# Test cases Swag Labs
+# Cas de test Swag Labs
 
 Entraînement d'écriture de cas de test sur un site marchand en démo : [Swag Labs](https://www.saucedemo.com/v1/)  
 
