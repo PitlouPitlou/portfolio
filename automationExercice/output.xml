@@ -1,160 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-04T15:27:25.690638" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-04T18:02:03.797829" rpa="false" schemaversion="5">
 <suite id="s1" name="testCases automationExercices" source="C:\Users\legue\Desktop\Portfolio\GitHub\automationExercice\testCases_automationExercices.robot">
-<test id="s1-t1" name="Test Case 1: Register User" line="27">
+<test id="s1-t1" name="Test Case 1: Register User" line="28">
 <kw name="Précondition" type="SETUP">
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-04T15:27:25.864476" level="INFO">Lancer le navigateur et accéder à l'URL</msg>
+<msg time="2024-11-04T18:02:03.973731" level="INFO">Lancer le navigateur et accéder à l'URL</msg>
 <arg>Lancer le navigateur et accéder à l'URL</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-04T15:27:25.864476" elapsed="0.000000"/>
+<status status="PASS" start="2024-11-04T18:02:03.973731" elapsed="0.000000"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-11-04T15:27:25.864476" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2024-11-04T18:02:03.973731" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-11-04T15:27:25.864476" elapsed="4.096950"/>
+<status status="PASS" start="2024-11-04T18:02:03.973731" elapsed="3.092511"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-11-04T15:27:29.962414" level="INFO">Clicking button '//*[@class="fc-button fc-cta-consent fc-primary-button"]'.</msg>
+<msg time="2024-11-04T18:02:07.067233" level="INFO">Clicking button '//*[@class="fc-button fc-cta-consent fc-primary-button"]'.</msg>
 <arg>//*[@class="fc-button fc-cta-consent fc-primary-button"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-04T15:27:29.962414" elapsed="0.127379"/>
-</kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<msg time="2024-11-04T15:27:30.281977" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2024-11-04T15:27:30.281977" level="FAIL">InvalidSelectorException: Message: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
-  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Stacktrace:
-	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
-	(No symbol) [0x00007FF7B39183F0]
-	(No symbol) [0x00007FF7B37B580A]
-	(No symbol) [0x00007FF7B37BC2CC]
-	(No symbol) [0x00007FF7B37BE5E7]
-	(No symbol) [0x00007FF7B37BE6A0]
-	(No symbol) [0x00007FF7B38054EA]
-	(No symbol) [0x00007FF7B3805D2C]
-	(No symbol) [0x00007FF7B384EAC7]
-	(No symbol) [0x00007FF7B382BA7F]
-	(No symbol) [0x00007FF7B384B8B3]
-	(No symbol) [0x00007FF7B382B7E3]
-	(No symbol) [0x00007FF7B37F75C8]
-	(No symbol) [0x00007FF7B37F8731]
-	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
-	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
-	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
-	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
-	(No symbol) [0x00007FF7B392344F]
-	(No symbol) [0x00007FF7B391F4C4]
-	(No symbol) [0x00007FF7B391F65D]
-	(No symbol) [0x00007FF7B390EBB9]
-	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
-	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
-</msg>
-<arg>//div[@class='logo pull-left']//img[alt()='Website for automation practice']</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="FAIL" start="2024-11-04T15:27:30.089793" elapsed="0.195741">InvalidSelectorException: Message: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
-  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Stacktrace:
-	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
-	(No symbol) [0x00007FF7B39183F0]
-	(No symbol) [0x00007FF7B37B580A]
-	(No symbol) [0x00007FF7B37BC2CC]
-	(No symbol) [0x00007FF7B37BE5E7]
-	(No symbol) [0x00007FF7B37BE6A0]
-	(No symbol) [0x00007FF7B38054EA]
-	(No symbol) [0x00007FF7B3805D2C]
-	(No symbol) [0x00007FF7B384EAC7]
-	(No symbol) [0x00007FF7B382BA7F]
-	(No symbol) [0x00007FF7B384B8B3]
-	(No symbol) [0x00007FF7B382B7E3]
-	(No symbol) [0x00007FF7B37F75C8]
-	(No symbol) [0x00007FF7B37F8731]
-	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
-	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
-	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
-	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
-	(No symbol) [0x00007FF7B392344F]
-	(No symbol) [0x00007FF7B391F4C4]
-	(No symbol) [0x00007FF7B391F65D]
-	(No symbol) [0x00007FF7B390EBB9]
-	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
-	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
-</status>
+<status status="PASS" start="2024-11-04T18:02:07.066242" elapsed="0.100108"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="NOT RUN" start="2024-11-04T15:27:30.286555" elapsed="0.000000"/>
+<status status="PASS" start="2024-11-04T18:02:07.166350" elapsed="0.064758"/>
 </kw>
-<status status="FAIL" start="2024-11-04T15:27:25.863459" elapsed="4.423096">InvalidSelectorException: Message: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
+<status status="PASS" start="2024-11-04T18:02:03.972659" elapsed="3.258449"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:07.231108" level="INFO">Clicking element '//*[@class='nav navbar-nav']/ancestor::div[@class='shop-menu pull-right']//a[contains(text(),'Signup / Login')]'.</msg>
+<arg>//*[@class='nav navbar-nav']/ancestor::div[@class='shop-menu pull-right']//a[contains(text(),'Signup / Login')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:07.231108" elapsed="1.024285"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>New User Signup!</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-11-04T18:02:08.255393" elapsed="0.026584"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:08.282977" level="INFO">Clicking element 'xpath://*[@data-qa='signup-name']'.</msg>
+<arg>xpath://*[@data-qa='signup-name']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:08.282977" elapsed="0.212264"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:08.497234" level="INFO">Typing text 'Le Guennec' into text field 'xpath://input[@data-qa='signup-name']'.</msg>
+<arg>xpath://input[@data-qa='signup-name']</arg>
+<arg>${signup-name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:08.496237" elapsed="0.182151"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-04T18:02:09.178922" level="INFO">Slept 500 milliseconds.</msg>
+<arg>0.5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-04T18:02:08.678388" elapsed="0.500534"/>
+</kw>
+<kw name="Generate Fake Email" owner="email_generator">
+<msg time="2024-11-04T18:02:09.178922" level="INFO">${signup-email} = vjo990gik7@example.com</msg>
+<var>${signup-email}</var>
+<doc>Génère une adresse email fictive.</doc>
+<status status="PASS" start="2024-11-04T18:02:09.178922" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:09.178922" level="INFO">Clicking element 'xpath://*[@data-qa='signup-email']'.</msg>
+<arg>xpath://*[@data-qa='signup-email']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:09.178922" elapsed="0.036187"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:09.215109" level="INFO">Typing text 'vjo990gik7@example.com' into text field 'xpath://input[@data-qa='signup-email']'.</msg>
+<arg>xpath://input[@data-qa='signup-email']</arg>
+<arg>${signup-email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:09.215109" elapsed="0.101531"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-04T18:02:09.817118" level="INFO">Slept 500 milliseconds.</msg>
+<arg>0.5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-04T18:02:09.316640" elapsed="0.500478"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:09.817633" level="INFO">Clicking element 'xpath://button[@data-qa='signup-button']'.</msg>
+<arg>xpath://button[@data-qa='signup-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:09.817633" elapsed="1.362599"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-04T18:02:11.680604" level="INFO">Slept 500 milliseconds.</msg>
+<arg>0.5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-04T18:02:11.180232" elapsed="0.500372"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Enter Account Information</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-11-04T18:02:11.680604" elapsed="0.010582"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:11.692187" level="INFO">Clicking element 'xpath://*[@data-qa='password']'.</msg>
+<arg>xpath://*[@data-qa='password']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T18:02:11.692187" elapsed="0.043365"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-04T18:02:11.736550" level="INFO">Typing text 'password' into text field 'xpath://input[@data-qa=password']'.</msg>
+<msg time="2024-11-04T18:02:12.011171" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-11-04T18:02:12.011171" level="FAIL">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@data-qa=password'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@data-qa=password']' is not a valid XPath expression."}
   (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Stacktrace:
-	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
-	(No symbol) [0x00007FF7B39183F0]
-	(No symbol) [0x00007FF7B37B580A]
-	(No symbol) [0x00007FF7B37BC2CC]
-	(No symbol) [0x00007FF7B37BE5E7]
-	(No symbol) [0x00007FF7B37BE6A0]
-	(No symbol) [0x00007FF7B38054EA]
-	(No symbol) [0x00007FF7B3805D2C]
-	(No symbol) [0x00007FF7B384EAC7]
-	(No symbol) [0x00007FF7B382BA7F]
-	(No symbol) [0x00007FF7B384B8B3]
-	(No symbol) [0x00007FF7B382B7E3]
-	(No symbol) [0x00007FF7B37F75C8]
-	(No symbol) [0x00007FF7B37F8731]
-	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
-	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
-	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
-	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
-	(No symbol) [0x00007FF7B392344F]
-	(No symbol) [0x00007FF7B391F4C4]
-	(No symbol) [0x00007FF7B391F65D]
-	(No symbol) [0x00007FF7B390EBB9]
-	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
-	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
+	GetHandleVerifier [0x00007FF6E2B03AF5+28005]
+	(No symbol) [0x00007FF6E2A683F0]
+	(No symbol) [0x00007FF6E290580A]
+	(No symbol) [0x00007FF6E290C2CC]
+	(No symbol) [0x00007FF6E290E5E7]
+	(No symbol) [0x00007FF6E290E6A0]
+	(No symbol) [0x00007FF6E29554EA]
+	(No symbol) [0x00007FF6E2955D2C]
+	(No symbol) [0x00007FF6E299EAC7]
+	(No symbol) [0x00007FF6E297BA7F]
+	(No symbol) [0x00007FF6E299B8B3]
+	(No symbol) [0x00007FF6E297B7E3]
+	(No symbol) [0x00007FF6E29475C8]
+	(No symbol) [0x00007FF6E2948731]
+	GetHandleVerifier [0x00007FF6E2DF646D+3118813]
+	GetHandleVerifier [0x00007FF6E2E46CC0+3448624]
+	GetHandleVerifier [0x00007FF6E2E3CF3D+3408301]
+	GetHandleVerifier [0x00007FF6E2BCA44B+841403]
+	(No symbol) [0x00007FF6E2A7344F]
+	(No symbol) [0x00007FF6E2A6F4C4]
+	(No symbol) [0x00007FF6E2A6F65D]
+	(No symbol) [0x00007FF6E2A5EBB9]
+	BaseThreadInitThunk [0x00007FF99DEA257D+29]
+	RtlUserThreadStart [0x00007FF99F4CAF08+40]
+</msg>
+<arg>xpath://input[@data-qa=password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2024-11-04T18:02:11.735552" elapsed="0.279077">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@data-qa=password'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@data-qa=password']' is not a valid XPath expression."}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6E2B03AF5+28005]
+	(No symbol) [0x00007FF6E2A683F0]
+	(No symbol) [0x00007FF6E290580A]
+	(No symbol) [0x00007FF6E290C2CC]
+	(No symbol) [0x00007FF6E290E5E7]
+	(No symbol) [0x00007FF6E290E6A0]
+	(No symbol) [0x00007FF6E29554EA]
+	(No symbol) [0x00007FF6E2955D2C]
+	(No symbol) [0x00007FF6E299EAC7]
+	(No symbol) [0x00007FF6E297BA7F]
+	(No symbol) [0x00007FF6E299B8B3]
+	(No symbol) [0x00007FF6E297B7E3]
+	(No symbol) [0x00007FF6E29475C8]
+	(No symbol) [0x00007FF6E2948731]
+	GetHandleVerifier [0x00007FF6E2DF646D+3118813]
+	GetHandleVerifier [0x00007FF6E2E46CC0+3448624]
+	GetHandleVerifier [0x00007FF6E2E3CF3D+3408301]
+	GetHandleVerifier [0x00007FF6E2BCA44B+841403]
+	(No symbol) [0x00007FF6E2A7344F]
+	(No symbol) [0x00007FF6E2A6F4C4]
+	(No symbol) [0x00007FF6E2A6F65D]
+	(No symbol) [0x00007FF6E2A5EBB9]
+	BaseThreadInitThunk [0x00007FF99DEA257D+29]
+	RtlUserThreadStart [0x00007FF99F4CAF08+40]
 </status>
 </kw>
-<status status="FAIL" start="2024-11-04T15:27:25.863459" elapsed="4.424073">Setup failed:
-InvalidSelectorException: Message: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://*[id='id_gender1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-04T18:02:12.014629" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-11-04T18:02:12.015631" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-04T18:02:03.972659" elapsed="8.042972">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@data-qa=password'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@data-qa=password']' is not a valid XPath expression."}
   (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Stacktrace:
-	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
-	(No symbol) [0x00007FF7B39183F0]
-	(No symbol) [0x00007FF7B37B580A]
-	(No symbol) [0x00007FF7B37BC2CC]
-	(No symbol) [0x00007FF7B37BE5E7]
-	(No symbol) [0x00007FF7B37BE6A0]
-	(No symbol) [0x00007FF7B38054EA]
-	(No symbol) [0x00007FF7B3805D2C]
-	(No symbol) [0x00007FF7B384EAC7]
-	(No symbol) [0x00007FF7B382BA7F]
-	(No symbol) [0x00007FF7B384B8B3]
-	(No symbol) [0x00007FF7B382B7E3]
-	(No symbol) [0x00007FF7B37F75C8]
-	(No symbol) [0x00007FF7B37F8731]
-	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
-	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
-	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
-	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
-	(No symbol) [0x00007FF7B392344F]
-	(No symbol) [0x00007FF7B391F4C4]
-	(No symbol) [0x00007FF7B391F65D]
-	(No symbol) [0x00007FF7B390EBB9]
-	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
-	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
+	GetHandleVerifier [0x00007FF6E2B03AF5+28005]
+	(No symbol) [0x00007FF6E2A683F0]
+	(No symbol) [0x00007FF6E290580A]
+	(No symbol) [0x00007FF6E290C2CC]
+	(No symbol) [0x00007FF6E290E5E7]
+	(No symbol) [0x00007FF6E290E6A0]
+	(No symbol) [0x00007FF6E29554EA]
+	(No symbol) [0x00007FF6E2955D2C]
+	(No symbol) [0x00007FF6E299EAC7]
+	(No symbol) [0x00007FF6E297BA7F]
+	(No symbol) [0x00007FF6E299B8B3]
+	(No symbol) [0x00007FF6E297B7E3]
+	(No symbol) [0x00007FF6E29475C8]
+	(No symbol) [0x00007FF6E2948731]
+	GetHandleVerifier [0x00007FF6E2DF646D+3118813]
+	GetHandleVerifier [0x00007FF6E2E46CC0+3448624]
+	GetHandleVerifier [0x00007FF6E2E3CF3D+3408301]
+	GetHandleVerifier [0x00007FF6E2BCA44B+841403]
+	(No symbol) [0x00007FF6E2A7344F]
+	(No symbol) [0x00007FF6E2A6F4C4]
+	(No symbol) [0x00007FF6E2A6F65D]
+	(No symbol) [0x00007FF6E2A5EBB9]
+	BaseThreadInitThunk [0x00007FF99DEA257D+29]
+	RtlUserThreadStart [0x00007FF99F4CAF08+40]
 </status>
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-11-04T15:27:30.289527" elapsed="2.185118"/>
+<status status="PASS" start="2024-11-04T18:02:12.018619" elapsed="2.272077"/>
 </kw>
-<status status="FAIL" start="2024-11-04T15:27:25.691608" elapsed="6.783037"/>
+<status status="FAIL" start="2024-11-04T18:02:03.798772" elapsed="10.491924"/>
 </suite>
 <statistics>
 <total>
