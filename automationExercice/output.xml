@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-02T14:38:05.761940" rpa="false" schemaversion="5">
+<suite id="s1" name="testCases automationExercices" source="C:\Users\legue\Desktop\Portfolio\GitHub\automationExercice\testCases_automationExercices.robot">
+<test id="s1-t1" name="Test Case 1: Register User" line="27">
+<status status="FAIL" start="2024-11-02T14:38:05.943027" elapsed="0.000997">Test cannot be empty.</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-02T14:38:05.946025" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-02T14:38:05.763934" elapsed="0.182091"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="testCases automationExercices">testCases automationExercices</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

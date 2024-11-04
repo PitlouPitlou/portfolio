@@ -21,26 +21,7 @@ Pierre Le Guennec
 
 <br>
 
-## Les outils
+## Les Exercices
 
-Au cours de ma formation, j'ai vu beaucoup d'outils pour soutenir les tests.  
-Vous trouverez ci-dessous la liste des langages, outils ou logiciels sur lesquels je souhaite m'exercer :
-- [x] Jira / Xray
-- [x] Git / GitHub
-- [x] Robot Framework
-- [ ] Squash
-- [ ] Python
-- [ ] Selenium
-- [ ] Cypress
-- [ ] Playwright
-- [ ] Katalon
-
-<br>
-
----
-
-<br>
-
-## Exercices
-
-- [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs) : exercice d'automatisation d'un site marchand avec Robot Framework.
+- [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs) : exercice d'écriture de cas de test et d'automatisation d'un site marchand avec Robot Framework.
+- [Automation Exercice](https://github.com/PitlouPitlou/portfolio/tree/main/automationExercice) : exercice d'automatisation d'un site marchand avec Robot Framework.
