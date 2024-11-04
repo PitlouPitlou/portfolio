@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-04T15:23:45.218106" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-04T15:27:25.690638" rpa="false" schemaversion="5">
 <suite id="s1" name="testCases automationExercices" source="C:\Users\legue\Desktop\Portfolio\GitHub\automationExercice\testCases_automationExercices.robot">
 <test id="s1-t1" name="Test Case 1: Register User" line="27">
 <kw name="Précondition" type="SETUP">
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-04T15:23:45.385180" level="INFO">Lancer le navigateur et accéder à l'URL</msg>
+<msg time="2024-11-04T15:27:25.864476" level="INFO">Lancer le navigateur et accéder à l'URL</msg>
 <arg>Lancer le navigateur et accéder à l'URL</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-04T15:23:45.385180" elapsed="0.000000"/>
+<status status="PASS" start="2024-11-04T15:27:25.864476" elapsed="0.000000"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-11-04T15:23:45.385180" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2024-11-04T15:27:25.864476" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-11-04T15:23:45.385180" elapsed="3.039445"/>
+<status status="PASS" start="2024-11-04T15:27:25.864476" elapsed="4.096950"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-11-04T15:23:48.424625" level="INFO">Clicking button '//*[@class="fc-button fc-cta-consent fc-primary-button"]'.</msg>
+<msg time="2024-11-04T15:27:29.962414" level="INFO">Clicking button '//*[@class="fc-button fc-cta-consent fc-primary-button"]'.</msg>
 <arg>//*[@class="fc-button fc-cta-consent fc-primary-button"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-04T15:23:48.424625" elapsed="0.097368"/>
+<status status="PASS" start="2024-11-04T15:27:29.962414" elapsed="0.127379"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<msg time="2024-11-04T15:23:48.698199" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2024-11-04T15:23:48.699196" level="FAIL">InvalidSelectorException: Message: invalid selector
+<msg time="2024-11-04T15:27:30.281977" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-11-04T15:27:30.281977" level="FAIL">InvalidSelectorException: Message: invalid selector
 from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
   (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Stacktrace:
@@ -55,7 +55,7 @@ Stacktrace:
 </msg>
 <arg>//div[@class='logo pull-left']//img[alt()='Website for automation practice']</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="FAIL" start="2024-11-04T15:23:48.523502" elapsed="0.179688">InvalidSelectorException: Message: invalid selector
+<status status="FAIL" start="2024-11-04T15:27:30.089793" elapsed="0.195741">InvalidSelectorException: Message: invalid selector
 from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
   (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Stacktrace:
@@ -87,9 +87,9 @@ Stacktrace:
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="NOT RUN" start="2024-11-04T15:23:48.703190" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-11-04T15:27:30.286555" elapsed="0.000000"/>
 </kw>
-<status status="FAIL" start="2024-11-04T15:23:45.384200" elapsed="3.318990">InvalidSelectorException: Message: invalid selector
+<status status="FAIL" start="2024-11-04T15:27:25.863459" elapsed="4.423096">InvalidSelectorException: Message: invalid selector
 from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
   (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Stacktrace:
@@ -119,7 +119,7 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
 </status>
 </kw>
-<status status="FAIL" start="2024-11-04T15:23:45.384200" elapsed="3.318990">Setup failed:
+<status status="FAIL" start="2024-11-04T15:27:25.863459" elapsed="4.424073">Setup failed:
 InvalidSelectorException: Message: invalid selector
 from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
   (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
@@ -152,9 +152,9 @@ Stacktrace:
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-11-04T15:23:48.706065" elapsed="2.200019"/>
+<status status="PASS" start="2024-11-04T15:27:30.289527" elapsed="2.185118"/>
 </kw>
-<status status="FAIL" start="2024-11-04T15:23:45.220114" elapsed="5.685970"/>
+<status status="FAIL" start="2024-11-04T15:27:25.691608" elapsed="6.783037"/>
 </suite>
 <statistics>
 <total>

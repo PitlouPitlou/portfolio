@@ -7,11 +7,6 @@ Suite Teardown    Close Browser
 *** Variables ***
 ${browser}        chrome
 ${url}            https://automationexercise.com/
-${username}       standard_user
-${password}       secret_sauce
-${firstName}      Pierre 
-${lastName}       Le Guennec
-${postalCode}     44000
 
 
 *** Keywords ***
@@ -29,7 +24,7 @@ Test Case 1: Register User
     #2. Navigate to url 'http://automationexercise.com'
     #3. Verify that home page is visible successfully
     #4. Click on 'Signup / Login' button
-    Click Element    //ul[@class='nav navbar-nav']/ancestor::div[@class='shop-menu pull-right']//a[text()='login']
+    Click Element    //*[@class='nav navbar-nav']/ancestor::div[@class='shop-menu pull-right']//a[contains(text(),'Signup / Login')]
     #5. Verify 'New User Signup!' is visible
     #6. Enter name and email address
     #7. Click 'Signup' button
