@@ -1,14 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-02T14:38:05.761940" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-11-04T15:23:45.218106" rpa="false" schemaversion="5">
 <suite id="s1" name="testCases automationExercices" source="C:\Users\legue\Desktop\Portfolio\GitHub\automationExercice\testCases_automationExercices.robot">
 <test id="s1-t1" name="Test Case 1: Register User" line="27">
-<status status="FAIL" start="2024-11-02T14:38:05.943027" elapsed="0.000997">Test cannot be empty.</status>
+<kw name="Précondition" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-04T15:23:45.385180" level="INFO">Lancer le navigateur et accéder à l'URL</msg>
+<arg>Lancer le navigateur et accéder à l'URL</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-04T15:23:45.385180" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-04T15:23:45.385180" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-04T15:23:45.385180" elapsed="3.039445"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-04T15:23:48.424625" level="INFO">Clicking button '//*[@class="fc-button fc-cta-consent fc-primary-button"]'.</msg>
+<arg>//*[@class="fc-button fc-cta-consent fc-primary-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-04T15:23:48.424625" elapsed="0.097368"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-04T15:23:48.698199" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-11-04T15:23:48.699196" level="FAIL">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
+	(No symbol) [0x00007FF7B39183F0]
+	(No symbol) [0x00007FF7B37B580A]
+	(No symbol) [0x00007FF7B37BC2CC]
+	(No symbol) [0x00007FF7B37BE5E7]
+	(No symbol) [0x00007FF7B37BE6A0]
+	(No symbol) [0x00007FF7B38054EA]
+	(No symbol) [0x00007FF7B3805D2C]
+	(No symbol) [0x00007FF7B384EAC7]
+	(No symbol) [0x00007FF7B382BA7F]
+	(No symbol) [0x00007FF7B384B8B3]
+	(No symbol) [0x00007FF7B382B7E3]
+	(No symbol) [0x00007FF7B37F75C8]
+	(No symbol) [0x00007FF7B37F8731]
+	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
+	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
+	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
+	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
+	(No symbol) [0x00007FF7B392344F]
+	(No symbol) [0x00007FF7B391F4C4]
+	(No symbol) [0x00007FF7B391F65D]
+	(No symbol) [0x00007FF7B390EBB9]
+	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
+	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
+</msg>
+<arg>//div[@class='logo pull-left']//img[alt()='Website for automation practice']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-11-04T15:23:48.523502" elapsed="0.179688">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
+	(No symbol) [0x00007FF7B39183F0]
+	(No symbol) [0x00007FF7B37B580A]
+	(No symbol) [0x00007FF7B37BC2CC]
+	(No symbol) [0x00007FF7B37BE5E7]
+	(No symbol) [0x00007FF7B37BE6A0]
+	(No symbol) [0x00007FF7B38054EA]
+	(No symbol) [0x00007FF7B3805D2C]
+	(No symbol) [0x00007FF7B384EAC7]
+	(No symbol) [0x00007FF7B382BA7F]
+	(No symbol) [0x00007FF7B384B8B3]
+	(No symbol) [0x00007FF7B382B7E3]
+	(No symbol) [0x00007FF7B37F75C8]
+	(No symbol) [0x00007FF7B37F8731]
+	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
+	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
+	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
+	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
+	(No symbol) [0x00007FF7B392344F]
+	(No symbol) [0x00007FF7B391F4C4]
+	(No symbol) [0x00007FF7B391F65D]
+	(No symbol) [0x00007FF7B390EBB9]
+	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
+	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-11-04T15:23:48.703190" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-04T15:23:45.384200" elapsed="3.318990">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
+	(No symbol) [0x00007FF7B39183F0]
+	(No symbol) [0x00007FF7B37B580A]
+	(No symbol) [0x00007FF7B37BC2CC]
+	(No symbol) [0x00007FF7B37BE5E7]
+	(No symbol) [0x00007FF7B37BE6A0]
+	(No symbol) [0x00007FF7B38054EA]
+	(No symbol) [0x00007FF7B3805D2C]
+	(No symbol) [0x00007FF7B384EAC7]
+	(No symbol) [0x00007FF7B382BA7F]
+	(No symbol) [0x00007FF7B384B8B3]
+	(No symbol) [0x00007FF7B382B7E3]
+	(No symbol) [0x00007FF7B37F75C8]
+	(No symbol) [0x00007FF7B37F8731]
+	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
+	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
+	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
+	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
+	(No symbol) [0x00007FF7B392344F]
+	(No symbol) [0x00007FF7B391F4C4]
+	(No symbol) [0x00007FF7B391F65D]
+	(No symbol) [0x00007FF7B390EBB9]
+	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
+	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-04T15:23:45.384200" elapsed="3.318990">Setup failed:
+InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class='logo pull-left']//img[alt()='Website for automation practice'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='logo pull-left']//img[alt()='Website for automation practice']' is not a valid XPath expression."}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B39B3AF5+28005]
+	(No symbol) [0x00007FF7B39183F0]
+	(No symbol) [0x00007FF7B37B580A]
+	(No symbol) [0x00007FF7B37BC2CC]
+	(No symbol) [0x00007FF7B37BE5E7]
+	(No symbol) [0x00007FF7B37BE6A0]
+	(No symbol) [0x00007FF7B38054EA]
+	(No symbol) [0x00007FF7B3805D2C]
+	(No symbol) [0x00007FF7B384EAC7]
+	(No symbol) [0x00007FF7B382BA7F]
+	(No symbol) [0x00007FF7B384B8B3]
+	(No symbol) [0x00007FF7B382B7E3]
+	(No symbol) [0x00007FF7B37F75C8]
+	(No symbol) [0x00007FF7B37F8731]
+	GetHandleVerifier [0x00007FF7B3CA646D+3118813]
+	GetHandleVerifier [0x00007FF7B3CF6CC0+3448624]
+	GetHandleVerifier [0x00007FF7B3CECF3D+3408301]
+	GetHandleVerifier [0x00007FF7B3A7A44B+841403]
+	(No symbol) [0x00007FF7B392344F]
+	(No symbol) [0x00007FF7B391F4C4]
+	(No symbol) [0x00007FF7B391F65D]
+	(No symbol) [0x00007FF7B390EBB9]
+	BaseThreadInitThunk [0x00007FFB2BE9257D+29]
+	RtlUserThreadStart [0x00007FFB2C9AAF08+40]
+</status>
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-11-02T14:38:05.946025" elapsed="0.000000"/>
+<status status="PASS" start="2024-11-04T15:23:48.706065" elapsed="2.200019"/>
 </kw>
-<status status="FAIL" start="2024-11-02T14:38:05.763934" elapsed="0.182091"/>
+<status status="FAIL" start="2024-11-04T15:23:45.220114" elapsed="5.685970"/>
 </suite>
 <statistics>
 <total>

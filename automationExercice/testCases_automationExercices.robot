@@ -29,7 +29,7 @@ Test Case 1: Register User
     #2. Navigate to url 'http://automationexercise.com'
     #3. Verify that home page is visible successfully
     #4. Click on 'Signup / Login' button
-    Click Element    //*[@class='fa fa-lock']/
+    Click Element    //ul[@class='nav navbar-nav']/ancestor::div[@class='shop-menu pull-right']//a[text()='login']
     #5. Verify 'New User Signup!' is visible
     #6. Enter name and email address
     #7. Click 'Signup' button
@@ -44,3 +44,5 @@ Test Case 1: Register User
     #16. Verify that 'Logged in as username' is visible
     #17. Click 'Delete Account' button
     #18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
+
+    Sleep    2
