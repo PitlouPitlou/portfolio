@@ -42,8 +42,6 @@ Test Case 2: Login User with correct email and password
 6. Enter correct email address and password
 7. Click 'login' button
 8. Verify that 'Logged in as username' is visible
-9. Click 'Delete Account' button
-10. Verify that 'ACCOUNT DELETED!' is visible
 
 <br>
 
@@ -56,6 +54,8 @@ Test Case 3: Login User with incorrect email and password
 6. Enter incorrect email address and password
 7. Click 'login' button
 8. Verify error 'Your email or password is incorrect!' is visible
+
+<br>
 
 Test Case 4: Logout User
 1. Launch browser
