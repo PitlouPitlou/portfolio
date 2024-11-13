@@ -25,3 +25,4 @@ Pierre Le Guennec
 
 - [Swag Labs](https://github.com/PitlouPitlou/portfolio/tree/main/swagLabs) : exercice d'écriture de cas de test et d'automatisation d'un site marchand avec Robot Framework.
 - [Automation Exercice](https://github.com/PitlouPitlou/portfolio/tree/main/automationExercice) : exercice d'automatisation d'un site marchand avec Robot Framework.
+- [HTML/CSS](https://github.com/PitlouPitlou/portfolio/tree/main/html) : exercice de création d'un petit site web.
