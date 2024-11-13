@@ -346,3 +346,5 @@ Test Case 10: Verify Subscription in home page
 
     #7. Verify success message 'You have been successfully subscribed!' is visible
     Page Should Contain    You have been successfully subscribed!
+
+    
